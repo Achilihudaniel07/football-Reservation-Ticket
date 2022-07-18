@@ -1,0 +1,75 @@
+form{
+    color:black;
+    background-size: contain;
+    border: 10px solid black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    cursor:pointer;
+    text-align: center;
+} 
+
+
+ h1{
+    text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick, 
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -10px -20px 30px firebrick;
+} 
+
+#enter{
+    border-radius: 5px;
+    width: 3rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    font-weight: bolder; 
+    color: rgba(29, 34, 60, 0.863);
+    background-color: transparent;
+}
+
+#submit{
+    width: 15rem;
+    height: 4rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: 20rem;
+    margin-top: 3rem;
+    color: rgba(29, 34, 60, 0.863);
+    background-color: transparent;
+}
+
+a{
+    text-decoration: none;
+}
+
+#endpage{
+    background:linear-gradient(90deg, #FF5EDF 10%, #04C8DE);
+    width: 15rem;
+    padding: 5rem;
+    color: rgba(17, 20, 35, 0.863);
+    font-size: 120%;
+    font-family: Trebuchet MS;
+    border-radius: 20px;  
+    background-color: transparent;
+}
+
+b{
+    font-family: trebuchet MS;
+    font-size: 1.5rem;
+    /* padding-bottom: 2rem; */
+}
+
+input{
+    background-color: transparent;
+}
+
+input:hover{
+    background-color: rgb(238, 238, 185);
+}
