@@ -1,6 +1,12 @@
+.fpage{
+    background-color: whitesmoke;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 form{
     color:black;
-    background-size: contain;
     border: 10px solid black;
     width: 50%;
     margin-left: auto;

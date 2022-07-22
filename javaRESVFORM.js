@@ -31,10 +31,9 @@
   // To change eplclubs background
   var epl = document.querySelectorAll("option")[5].parentElement;
   epl.addEventListener("click", function(){
-  document.querySelector("body").style.background="url('epl.jpeg')";
-  document.querySelector("form").style.color="black"
+  document.getElementById("fpage1").style.background="url('epl.jpeg')";
   document.querySelector("form").style.fontSize="1.2rem"; 
- 
+  document.querySelector("form").style.color="black"
   });
 
 
@@ -44,7 +43,8 @@
   // To change tornament background
   var epl = document.querySelectorAll("input")[4]
   epl.addEventListener("click", function(){
-  document.querySelector("body").style.backgroundImage="url('epl2.jpeg')";
+  document.getElementById("fpage1").style.backgroundImage="url('epl2.jpeg')";
+  document.querySelector("b")[6].style.backgroundColor="yellow";
   document.querySelector("form").style.color="black";
   document.querySelector("form").style.fontSize="1.2rem";
   });
@@ -52,7 +52,7 @@
 
   var cl = document.querySelectorAll("input")[5];
   cl.addEventListener("click", function(){
-  document.querySelector("body").style.backgroundImage="url('cl2.jpeg')";
+  document.getElementById("fpage1").style.backgroundImage="url('cl2.jpeg')";
   document.querySelector("form").style.color="black"
   document.querySelector("form").style.fontSize="1.2rem"
   });
@@ -60,7 +60,7 @@
 
   var fa = document.querySelectorAll("input")[6]
   fa.addEventListener("click", function(){
-  document.querySelector("body").style.backgroundImage="url('facup2.jpeg')";
+  document.getElementById("fpage1").style.backgroundImage="url('facup2.jpeg')";
   document.querySelector("form").style.color="black"
   document.querySelector("form").style.fontSize="1.2rem"
   });
@@ -68,7 +68,7 @@
 
   var carl = document.querySelectorAll("input")[7]
   carl.addEventListener("click", function(){
-  document.querySelector("body").style.backgroundImage="url('carl.jpeg')";
+  document.getElementById("fpage1").style.backgroundImage="url('carl.jpeg')";
   document.querySelector("form").style.color="black"
   document.querySelector("form").style.fontSize="1.2rem"
   });
@@ -97,4 +97,4 @@
   document.querySelector("button").style.backgroundColor="whitesmoke"
   });
    
-  // ################################################################################################################
+  // #################################################################################################################

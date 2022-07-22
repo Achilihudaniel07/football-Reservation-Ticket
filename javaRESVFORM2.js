@@ -1,4 +1,4 @@
-  // //  To add new values to the li in the reservation form
+  //  To add new values to the li in the reservation form
 
   // var butt = document.getElementById("enter")
   // var input = document.getElementById("userinput")
@@ -18,38 +18,38 @@
 
   // // To trigger the button and enter keyboard key
 
-  var butt = document.getElementById   ("enter")
-  var day= document.querySelector("ul")
+  // var butt = document.getElementById   ("enter")
+  // var day= document.querySelector("ul")
 
-  butt.addEventListener("click",function(event){
+  // butt.addEventListener("click",function(event){
 
 
-  if(addMatchDay.value !== "")
-  // if (addMatchDay.value == "null")
-  {
-  var xday= document.createElement("li")
-  xday.appendChild(document.createTextNode(addMatchDay.value))
+  // if(addMatchDay.value !== "")
+  // // if (addMatchDay.value == "null")
+  // {
+  // var xday= document.createElement("li")
+  // xday.appendChild(document.createTextNode(addMatchDay.value))
 
-  day.appendChild(xday)
-  addMatchDay.value = ""
-  }
-  else if (addMatchDay.value !== "null")
-  {alert ("input value")}
-  }
-  );
+  // day.appendChild(xday)
+  // addMatchDay.value = ""
+  // }
+  // else if (addMatchDay.value !== "null")
+  // {alert ("input value")}
+  // }
+  // );
 
   var addMatchDay = document.getElementById("userinput")
   var day= document.querySelector("ul")
 
   addMatchDay.addEventListener("keypress",function(event){
 
-  // if (event.key==="Enter")
-  if (addMatchDay.value === "null")
+  if (event.key==="Enter")
+  // if (addMatchDay.value === "null")
   {
   if(addMatchDay.value !== ""){
 
   var xday= document.createElement("li")
-  xday.appendChild(document.createTextNode(addMatchDay.value))
+  xday.appendChild(document.createTextNode(addMatchDay.value), close)
 
   day.appendChild(xday)
   addMatchDay.value = ""
@@ -59,6 +59,25 @@
   {alert ("input value")};
   }
   });
+
+  // var addMatchDay = document.getElementById("userinput")
+  // var day= document.querySelector("ul")
+
+  // addMatchDay.addEventListener("keypress",function(event){
+  //   var x = document.createElement("li");
+  //   var box = document.createElement("input")
+  //   box.type = "checkbox"
+
+  //   if (event.key == "Enter"){
+  //     if (addMatchDay.value !==""){
+  //       x.append(document.createTextNode(addMatchDay.value));
+  //       day.append(x);
+  //       addMatchDay.value ="";
+  //     }
+  //   }
+  // })
+
+ 
 
   
 // ******************************************************************************************************************

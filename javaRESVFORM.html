@@ -11,93 +11,100 @@
 
 <!-- CLASSWORK -->
 
-    <form> 
-        <h1>FOOTBALL RESERVATION TICKET <br></h1>
-        <b>Full name:</b><br>
-        <input type="text" id="fullname" placeholder="First Name LastName"onchange="myFunction()">
-        <br><br>
-
-
-        <b>Email  address:</b><br>
-        <input type="email" placeholder="EMAIL_ADDRESS">
-        <br><br>
-
-
-        <b>Sex</b><br>
-        <select> 
-            <option input type="radio" name="Terms">Male </option>
-            <option input type="radio" name="Terms">Female</option>
-            <option input type="radio" name="Terms">Others </option>
-        </select>
-        <br><br>
-
-
-        <b>Select football club:</b><br>
-            <select id ="eplclubs">
-                <option id="manu">Manchester United FC</option>
-                <option id="che">Chelsea FC</option>
-                <option id="liv">Liverpool FC</option>
-                <option id="manc">Manchester City FC</option>
-                <option id="ars">Arsenal FC</option>
-                <option id="manu">Newcastle United FC</option>
-                <option id="che">Everton FC</option>
-                <option id="liv">Aston Villa FC</option>
-                <option id="bre">Brentford United FC</option>
-                <option id="wol">Wolves Wanderers FC</option>
-                <option id="ful">Fulham FC</option>
-                <option id="nor">Norwich City FC</option>
-                <option id="tot">Tottenham Hotspur FC</option>
-                <option id="bri">Brighton Hoven FC</option>
-                <option id="wes">Westham United FC</option>
-                <option id="cry">Crystal Palace FC</option>
-                <option id="bla">Blackburn Rovers FC</option>
-                <option id="lei">Leicester City FC </option>
-                <option id="rea">Reading FC</option>
-                <option id="sun">Sunderland FC</option>
+    <div class="fpage" id="fpage1">
+        <form> 
+            <h1>FOOTBALL RESERVATION TICKET <br></h1>
+            <b>Full name:</b><br>
+            <input type="text" id="fullname" placeholder="First Name LastName"onchange="myFunction()">
+            <br><br>
+    
+    
+            <b>Email  address:</b><br>
+            <input type="email" placeholder="EMAIL_ADDRESS">
+            <br><br>
+    
+    
+            <b>Sex</b><br>
+            <select> 
+                <option input type="radio" name="Terms">Male </option>
+                <option input type="radio" name="Terms">Female</option>
+                <option input type="radio" name="Terms">Others </option>
             </select>
-        
-        <br><br>
+            <br><br>
+    
+    
+            <b>Select football club:</b><br>
+                <select id ="eplclubs">
+                    <option id="manu">Manchester United FC</option>
+                    <option id="che">Chelsea FC</option>
+                    <option id="liv">Liverpool FC</option>
+                    <option id="manc">Manchester City FC</option>
+                    <option id="ars">Arsenal FC</option>
+                    <option id="manu">Newcastle United FC</option>
+                    <option id="che">Everton FC</option>
+                    <option id="liv">Aston Villa FC</option>
+                    <option id="bre">Brentford United FC</option>
+                    <option id="wol">Wolves Wanderers FC</option>
+                    <option id="ful">Fulham FC</option>
+                    <option id="nor">Norwich City FC</option>
+                    <option id="tot">Tottenham Hotspur FC</option>
+                    <option id="bri">Brighton Hoven FC</option>
+                    <option id="wes">Westham United FC</option>
+                    <option id="cry">Crystal Palace FC</option>
+                    <option id="bla">Blackburn Rovers FC</option>
+                    <option id="lei">Leicester City FC </option>
+                    <option id="rea">Reading FC</option>
+                    <option id="sun">Sunderland FC</option>
+                </select>
+            
+            <br><br>
+    
+    
+    
+            <b>Arrival date:</b><br>
+            <input type="date">
+            <br><br>
+    
+    
+    
+            <b>Number of persons:</b><br>
+            <input type="number" placeholder="UNKNOWN_TYPE">
+            <br><br>
+    
+    
+    
+            <div class="tour">
+                <b>Which tournament in particular?</b><br>
+                English Premier League<input type="radio" name="Terms"><br>
+                Champions League<input type="radio" name="Terms"><br>
+                F.A Cup<input type="radio" name="Terms"><br>
+                Carling Cup<input type="radio"name="Terms"> 
+            </div>
+            <br><br> 
+    
+    
+    
+            <b>Discount Coupon code:<b><br>
+            <input type="number" placeholder="UNKNOWN_TYPE">
+            <br><br>
+    
+    
+    
+    
+            <b>Terms and conditions*</b><br>
+            I agree <input type="radio" name="Terms">
+            I disagree <input type="radio" name="Terms">
+            <br><br>
+    
+    
+            
+            <button id="matchday"> <a href="javaRESVFORM2.html">Select a Matchday</a> </button>
+            <br><br>
+        </form>
 
+    </div>
 
-
-        <b>Arrival date:</b><br>
-        <input type="date">
-        <br><br>
-
-
-
-        <b>Number of persons:</b><br>
-        <input type="number" placeholder="UNKNOWN_TYPE">
-        <br><br>
-
-
-
-        <div class="tour">
-            <b>Which tournament in particular?</b><br>
-            English Premier League<input type="radio" name="Terms"><br>
-            Champions League<input type="radio" name="Terms"><br>
-            F.A Cup<input type="radio" name="Terms"><br>
-            Carling Cup<input type="radio"name="Terms"> 
-        </div>
-        <br><br> 
-
-
-
-        <b>Discount Coupon code:<b><br>
-        <input type="number" placeholder="UNKNOWN_TYPE">
-        <br><br>
-
-
-
-
-        <b>Terms and conditions*</b><br>
-        I agree <input type="radio" name="Terms">
-        I disagree <input type="radio" name="Terms">
-        <br><br>
-        
-        <button id="matchday"> <a href="javaRESVFORM2.html">Select a Matchday</a> </button>
-        <br><br>
-    </form>
+  
 
     <script type= "text/javascript" src="javaRESVFORM.js"></script>
 
